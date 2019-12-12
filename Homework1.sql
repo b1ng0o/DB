@@ -10,8 +10,8 @@ CREATE DATABASE IF NOT EXISTS example;
 USE example;
 -- создание таблицы с 2 столбцами
 CREATE TABLE IF NOT EXISTS users(
--- столбец id цифровое значение начинающееся с 1 и увиличивающееся на 1 если такого номера нет
-  id INT NOT NULL auto_increment primary key,
+-- столбец id цифровой тип
+  id INT UNSIGNED,
 -- строковый столбец name
   name VARCHAR(30)
 );
