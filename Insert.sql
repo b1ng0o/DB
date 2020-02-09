@@ -52,6 +52,7 @@ INSERT INTO `brands` VALUES ('1','Ms. Lavinia Reinger DVM','Guadeloupe'),
 ('50','Birdie Cremin','Western Sahara'),
 ('51','Laurie Carter','Mozambique'); 
 
+
 INSERT INTO `models` VALUES ('1','1','Janet'),
 ('2','2','Adelia'),
 ('3','3','Trinity'),
